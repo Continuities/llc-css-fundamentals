@@ -20,6 +20,9 @@
 
     <!-- Takes care of CSS3 prefixes! -->
     <script src="framework/scripts/prefixfree.min.js"></script>
+
+    <!-- class gauge -->
+    <script async data-id="ClassGauge" data-token="-JZOpW-MMfYyBECJvQ9x" src="https://class-gauge.firebaseapp.com/assets/voting_client.js"></script>
 </head>
 
 <!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
@@ -337,14 +340,16 @@
             }
             ```
 
-            **Colour Resources:**
+            **Colour Resources:** 
 
             [http://www.colorpicker.com/](http://www.colorpicker.com/)  
             [http://colours.neilorangepeel.com/](http://colours.neilorangepeel.com/)    
             [http://www.colourlovers.com/](http://www.colourlovers.com/)  
             [http://flatuicolors.com/](http://flatuicolors.com/)  
             [http://color.hailpixel.com/](http://color.hailpixel.com/)  
-            [http://wesandersonpalettes.tumblr.com/](http://wesandersonpalettes.tumblr.com/)
+            [http://wesandersonpalettes.tumblr.com/](http://wesandersonpalettes.tumblr.com/)  
+            [http://www.colorzilla.com/chrome/](http://www.colorzilla.com/chrome/)
+
         </section>
 
         <section class="slide">
@@ -639,7 +644,13 @@ h3 {
             <p>Resource: <a href="http://reference.sitepoint.com/css/typography">Sitepoint Typographical Properties</a></p>
 
             <p>Need help deciding on fonts?  The example project uses Open Sans (sans-serif), Merriweather (serif), Pacifico (cursive).</p>
-
+            
+            <p>Here are a couple other good resources for choosing</p>
+            <ul>
+                <li><a href="http://hellohappy.org/beautiful-web-type/">http://hellohappy.org/beautiful-web-type/</a></li>
+                <li><a href="http://bootstrapbay.com/blog/google-web-fonts/">http://bootstrapbay.com/blog/google-web-fonts/</a></li>
+                <li><a href="http://southernweb.com/2014/04/best-google-fonts-2014/">http://southernweb.com/2014/04/best-google-fonts-2014/</a></li>
+            </ul>
             <p>Your page should look something like this: <a href="project/examples/3-typography.html">Example 3</a>.</p>
 
             <div class="presenter-notes">
@@ -671,7 +682,7 @@ h3 {
             <p>The <code>padding</code> and <code>margin</code> can both be declared using similar syntax of 1 to 4 values. Values can be declared using different measurement units but pixels or percentages are most commonly used. Setting the value to "0" will <strong>remove</strong> any default space on an HTML element. Any positive value will <strong>add</strong> space.</p>
 
             <ul>
-                <li>4 values means top, right, bottom, left</li>
+                <li>4 values means top, right, bottom, left (remember the acronym 'TRBL' for what order the values go in)</li>
                 <li>3 values means top, right & left, bottom</li>
                 <li>2 values means top & bottom, right & left</li>
                 <li>1 value means the same amount of padding on all sides</li>
